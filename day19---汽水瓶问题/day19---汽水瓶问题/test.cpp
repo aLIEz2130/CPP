@@ -23,7 +23,6 @@ int calculateNum(int num) {
 	}
 	return sum;
 }
-
 int main(){
 
 	int number;
