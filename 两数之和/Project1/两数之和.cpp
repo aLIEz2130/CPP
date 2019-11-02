@@ -1,5 +1,3 @@
-#define _CRT_SECURE_NO_WARNINGS 1
-//Á´½Ó£ºhttps://leetcode-cn.com/problems/two-sum
 class Solution {
 public:
 	vector<int> twoSum(vector<int>& nums, int target) {
