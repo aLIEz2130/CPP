@@ -1,4 +1,4 @@
-#define _CRT_SECURE_NO_WARNINGS 1
+
 class Solution {
 public:
 	int searchInsert(vector<int>& nums, int target) {
@@ -18,8 +18,8 @@ public:
 			}
 			else return mid;
 		}
-		if (target <= nums[head])//插入位置在开头的情况
+		if (target <= nums[head])//鎻掑叆浣嶇疆鍦ㄥ紑澶寸殑鎯呭喌
 			return head;
-		return head + 1;//插入位置在结尾的情况
+		return head + 1;//鎻掑叆浣嶇疆鍦ㄧ粨灏剧殑鎯呭喌
 	}
 };
